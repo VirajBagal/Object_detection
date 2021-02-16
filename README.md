@@ -10,6 +10,9 @@ python train.py --run_name give_run_name --dir_input path_to_csv --dir_train pat
 
 # Qualitative comparison
 
+Blue boxes are the predictions from Faster-RCNN, while red are ones from EfficientDet-B5. We see that at some places, Faster-RCNN predicts larger boxes than EfficientDet-B5. At left mid spot, Faster-RCNN predicts box but EfficientDet-B5 doesn't and we see that indeed there is no wheat head over there. 
 
+
+![alt text](https://github.com/VirajBagal/Object_detection/blob/main/eval.png?raw=true)
 
 # Quantitative comparison
