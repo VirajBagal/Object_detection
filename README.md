@@ -16,3 +16,7 @@ Blue boxes are the predictions from Faster-RCNN, while red are ones from Efficie
 ![alt text](https://github.com/VirajBagal/Object_detection/blob/main/eval.png?raw=true)
 
 # Quantitative comparison
+
+We see that EfficientDet-B5 has lesser number of trainable parameters than Faster-RCNN. EfficientDet-B5 also trains faster than Faster-RCNN. Moreover, it also has better public and private test score than Faster-RCNN. 
+
+![alt text](https://github.com/VirajBagal/Object_detection/blob/main/obj_detection.png?raw=true)
